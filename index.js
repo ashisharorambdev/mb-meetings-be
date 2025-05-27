@@ -11,8 +11,7 @@ const session = require("express-session");
 var cookieParser = require("cookie-parser");
 const { default: mongoose } = require("mongoose");
 const DB =
-  "mongodb+srv://ashisharoramb:Ashu%409860@meetings-by-mb.cbzdxbr.mongodb.net/meetings-by-mb?retryWrites=true&w=majority";
-
+  "mongodb+srv://ashisharoramb:Ashu%409860@meetings-by-mb.qbomnbe.mongodb.net/?retryWrites=true&w=majority&appName=meetings-by-mb";
 const app = express();
 const PORT = process.env.PORT || 8080;
 app.use(
